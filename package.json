@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-nexxa",
+  "version": "1.0.0",
+  "description": "Nexxa ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexxa/eslint-config-nexxa.git"
+  },
+  "keywords": [
+    "nexxa",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "javascript",
+    "js"
+  ],
+  "author": "StefanoMagrassi <stefano.magrassi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nexxa/eslint-config-nexxa/issues"
+  },
+  "homepage": "https://github.com/Nexxa/eslint-config-nexxa#readme"
+}
