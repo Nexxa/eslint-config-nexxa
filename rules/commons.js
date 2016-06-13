@@ -4,6 +4,10 @@
  */
 
 module.exports = {
+  extends: 'eslint:recommended',
+  env: {
+    browser: true
+  },
   rules: {
     'brace-style': 'error',
     'camelcase': 'error',

@@ -4,6 +4,13 @@
  */
 
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module'
+  },
+  env: {
+    es6: true
+  },
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
