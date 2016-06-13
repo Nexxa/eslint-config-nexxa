@@ -3,10 +3,9 @@
  * @author StefanoMagrassi <stefano.magrassi@gmail.com>
  */
 
-const test = require('tape');
-
-const rules  = require('../index').rules;
+const test   = require('tape');
 const tester = require('./helpers/tester');
+const rules  = require('../rules/commons');
 
 const list = [
   {
@@ -252,7 +251,6 @@ const list = [
 ];
 
 test('ESLint rules', t => {
-  // Loop through tests specification
   list.forEach(spec => tester(t, rules, spec));
 
   t.end();
