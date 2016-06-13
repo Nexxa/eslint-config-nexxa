@@ -1,4 +1,4 @@
-# eslint-config-nexxa
+# eslint-config-nexxa [![Build Status](https://travis-ci.org/Nexxa/eslint-config-nexxa.svg?branch=master)](https://travis-ci.org/Nexxa/eslint-config-nexxa)
 
 Nexxa ESLint extensible and sharable configuration.
 
