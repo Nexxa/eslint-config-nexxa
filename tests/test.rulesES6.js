@@ -5,7 +5,7 @@
 
 const test   = require('tape');
 const tester = require('./helpers/tester');
-const rules  = require('../rules/es6');
+const rules  = require('../rules/es6').rules;
 
 const es6List = [
   {

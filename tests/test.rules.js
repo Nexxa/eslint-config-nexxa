@@ -5,7 +5,7 @@
 
 const test   = require('tape');
 const tester = require('./helpers/tester');
-const rules  = require('../rules/commons');
+const rules  = require('../rules/commons').rules;
 
 const list = [
   {
