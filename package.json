@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/Nexxa/eslint-config-nexxa#readme",
   "devDependencies": {
-    "eslint": "2.12.x"
+    "eslint": "2.12.x",
+    "tap-spec": "4.1.1",
+    "tape": "4.5.1"
   }
 }
