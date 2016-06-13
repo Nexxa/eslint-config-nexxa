@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Nexxa ESLint configuration",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.12"
+  },
   "scripts": {
     "lint": "eslint ./index.js",
     "pretest": "npm run lint",
