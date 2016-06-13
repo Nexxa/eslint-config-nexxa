@@ -4,8 +4,8 @@
  */
 
 // Rules
-const commons = require('./rules/commons');
-const es6     = require('./rules/es6');
+const commons = require('./rules/commons').rules;
+const es6     = require('./rules/es6').rules;
 
 module.exports = {
   extends: 'eslint:recommended',
