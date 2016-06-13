@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint ./index.js",
     "pretest": "npm run lint",
-    "test": "tape './tests/**/test.*.js' | faucet"
+    "test": "tape './tests/test.*.js' | faucet",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
