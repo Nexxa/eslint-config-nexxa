@@ -4,13 +4,12 @@
  */
 
 const test       = require('tape');
-const sinon = require('sinon');
-const linter = require('eslint').linter;
-const toBeTested = require('./to-be-tested');
-const hasError   = require('./has-error');
+const sinon      = require('sinon');
+const linter     = require('eslint').linter;
+const toBeTested = require('./helpers/to-be-tested');
+const hasError   = require('./helpers/has-error');
 
 test('Helpers', t => {
-
   t.test('toBeTested - Get rule to be tested', st => {
     st.plan(2);
 
