@@ -24,6 +24,20 @@ test('Helpers', t => {
     }, 'should throw error if there is not specified rule');
   });
 
+  t.test('toBeTested - with es6 enabled', st => {
+    st.plan(2);
+
+    const withES6  = true;
+    const rules    = { 'brace-style': 'error' };
+    const assert   = toBeTested(rules, 'brace-style', withES6);
+    const expected = { env: {es6: true}, rules: { 'brace-style': 'error' } };
+
+    st.deepEqual(assert, expected, 'should return a "rules" object with the "rule" to be tested');
+    st.throws(function() {
+      toBeTested(rules, 'foo');
+    }, 'should throw error if there is not specified rule');
+  });
+
   t.test('hasError - Check if there are errors', st => {
     st.plan(2);
 
