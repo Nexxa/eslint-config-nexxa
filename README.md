@@ -7,7 +7,7 @@ Nexxa ESLint extensible and sharable configuration.
 Install the configuration as a npm package:
 
 ```sh
-npm install eslint-config-nexxa
+npm install --save-dev eslint-config-nexxa
 ```
 
 and then add it as extension in your ESLint configuration file:
