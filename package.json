@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Nexxa/eslint-config-nexxa/issues"
   },
-  "homepage": "https://github.com/Nexxa/eslint-config-nexxa#readme"
+  "homepage": "https://github.com/Nexxa/eslint-config-nexxa#readme",
+  "devDependencies": {
+    "eslint": "2.12.x"
+  }
 }
