@@ -55,8 +55,8 @@ module.exports = [
   {
     title: 'Indentation - enforce consistent indentation (2 spaces)',
     rule: 'indent',
-    ok: 'if (a) {\n  b = true;\n}\nvar c = 1,\n    d = [];',
-    ko: 'if (a) {\nb = true;\n}\nvar c = 1,\nd = [];'
+    ok: 'if (a) {\n  b = true;\n}\nvar c = 1,\n    d = [];\nswitch (e) {\n  case 1:\n    var f = 2;\n  default:\n    var f = 3;\n}',
+    ko: 'if (a) {\nb = true;\n}\nvar c = 1,\nd = [];\nswitch (e) {\ncase 1:\n  var f = 2;\n  default:\n  var f = 3;\n}'
   },
   {
     title: 'Linebreak - enforce consistent linebreak style (unix)',
